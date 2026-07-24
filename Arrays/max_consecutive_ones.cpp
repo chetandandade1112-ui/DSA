@@ -15,13 +15,12 @@ public:
             // If current element is 1, increment count
             if (nums[i] == 1) {
                 cnt++;
+                 // Update maximum if current count is greater
+            maxi = max(maxi, cnt);
             } else {
                 // If element is 0, reset count
                 cnt = 0;
             }
-
-            // Update maximum if current count is greater
-            maxi = max(maxi, cnt);
         }
 
         // Return maximum consecutive 1's
