@@ -18,7 +18,7 @@ public:
             // Add current element to the sum
             sum += nums[i]; 
             
-            // Update maxi if current sum is greater
+            // Update maxi if current sum is greate
             if (sum > maxi) {
                 maxi = sum; 
             }
